@@ -1,0 +1,6 @@
+[2025-11-24 09:00:01] INFO: Servidor iniciado
+[2025-11-24 09:01:05] INFO: Conexión establecida con el cliente 192.168.1.10
+[2025-11-24 09:12:01] ERROR: No se pudo conectar a la base de datos
+[2025-11-24 09:15:45] WARNING: Memoria disponible baja
+[2025-11-24 10:05:22] ERROR: Usuario no autorizado
+[2025-11-24 10:10:00] INFO: Proceso completado
