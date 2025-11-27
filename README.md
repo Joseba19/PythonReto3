@@ -9,7 +9,6 @@
 6. [Estructuras de Datos](#estructuras-de-datos)
 7. [Manejo de Archivos](#manejo-de-archivos)
 8. [Notas y Buenas Prácticas](#notas-y-buenas-prácticas)
-9. [Resumen Final](#resumen-final)
 
 ---
 
