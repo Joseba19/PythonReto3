@@ -1,0 +1,5 @@
+Produced: 45, Bonus: 0
+Produced: 52, Bonus: 5.2
+Produced: 76, Bonus: 7.6
+Produced: 48, Bonus: 0
+Produced: 60, Bonus: 6.0

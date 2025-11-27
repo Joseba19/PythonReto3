@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Marcas"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Marcas"
+	}
+}
