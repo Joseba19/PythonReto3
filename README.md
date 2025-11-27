@@ -283,15 +283,3 @@ Analizando los ejercicios, he notado algunos patrones y puntos importantes:
 4.  **Modularidad**: Aunque la mayoría de scripts son lineales, el uso de bloques separados para "Entrada", "Procesamiento" y "Salida" hace el código más legible.
 
 ---
-
-## Resumen Final
-
-A través de estos ejercicios, has construido una base sólida en Python. Has aprendido a:
-1.  **Almacenar información** en variables de distintos tipos.
-2.  **Tomar decisiones** lógicas con condicionales.
-3.  **Automatizar tareas repetitivas** con bucles.
-4.  **Manipular texto** de forma avanzada para limpiar y extraer información.
-5.  **Gestionar colecciones de datos** complejas con listas y tuplas.
-6.  **Persistir y recuperar información** mediante el manejo de archivos.
-
-Estos son los pilares fundamentales de la programación. El siguiente paso natural sería profundizar en la creación de **funciones** propias para reutilizar código y explorar la **Programación Orientada a Objetos** (clases y objetos) para estructurar programas más grandes.
