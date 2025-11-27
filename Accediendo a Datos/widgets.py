@@ -1,5 +1,5 @@
 # leer widgets log
-with open("widgets.txt", "r") as f_in: 
+with open("Archivos/widgets.txt", "r") as f_in: 
     lines = f_in.readlines()
 
 contador = 0
@@ -16,7 +16,7 @@ for line in lines:
     overtime_report.append(f"Produced: {produced}, Bonus: {round(bonus, 2)}")  
 
 #  Producir informe final
-with open("overtime_report.txt", "w") as f_out:
+with open("Archivos/overtime_report.txt", "w") as f_out:
     for i in range(0, contador):
         f_out.write((overtime_report[i]) + "\n")
 
