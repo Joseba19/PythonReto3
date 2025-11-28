@@ -1,7 +1,5 @@
 # Apuntes de Python basados en los ejercicios de clase
 
-# Apuntes de Python basados en los ejercicios de clase
-
 ## Índice
 1. [Variables y Tipos de Datos](#variables-y-tipos-de-datos)
 2. [Entrada y Salida (Input/Output)](#entrada-y-salida-inputoutput)
