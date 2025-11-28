@@ -145,6 +145,47 @@ for alumno in alumnos:
 
 ---
 
+## Ejemplos de Lógica (FlowCharts)
+
+Hemos practicado la lógica de programación con ejercicios de diagramas de flujo traducidos a Python.
+
+### Cálculo de Media (Bucle While)
+Este ejercicio (`FlowCharts1.py`) pide números al usuario hasta que decide parar, y calcula la suma y la media.
+
+```python
+count = 0
+sum = 0
+num = input("Introduce un numero: ")
+
+while num.isnumeric():
+    sum = sum + int(num)
+    count += 1
+    num = input("Introduce mas numeros, o pulsa 'q' para salir: ")
+    
+average = sum / count
+print(f"La suma de los numeros es {sum}, y la media es {average}")
+```
+
+### Mayor de 3 números
+Este ejercicio (`FlowCharts2.py`) determina cuál es el mayor de tres números introducidos.
+
+```python
+A = input("Introduce un numero: ")
+B = input("Introduce un numero: ")
+C = input("Introduce un numero: ")
+
+BIG = A
+
+if B > BIG:
+    BIG = B
+
+if C > BIG:
+    BIG = C
+
+print(f"El numero mas alto es {BIG}")
+```
+
+---
 ## Manipulación de Cadenas (Strings)
 
 Las cadenas de texto son muy versátiles en Python. Hemos visto varias formas avanzadas de trabajar con ellas.
@@ -264,6 +305,68 @@ with open("informe.txt", "w") as f:
 
 ---
 
+## Manejo de JSON
+
+JSON (JavaScript Object Notation) es un formato muy común para intercambiar datos. En Python usamos la librería `json`.
+
+### Lectura de JSON
+En el ejercicio `jsonReader.py` leemos un archivo de configuración.
+
+```python
+import json
+
+with open("config.json", "r") as f:
+    config = json.load(f)
+
+print(config['database']['host'])         # localhost
+print(config['features']['enable_logging'])  # True
+```
+
+---
+
+## Métodos
+
+A continuación, una referencia de todos los métodos y funciones que hemos visto en los ejercicios.
+
+### Funciones Integradas (Built-in)
+| Método | Descripción | Ejemplo |
+| :--- | :--- | :--- |
+| `print()` | Muestra información en consola. | `print("Hola")` |
+| `input()` | Lee texto del usuario. | `nombre = input("Nombre: ")` |
+| `int()` | Convierte a entero. | `int("5")` -> `5` |
+| `float()` | Convierte a decimal. | `float("5.5")` -> `5.5` |
+| `str()` | Convierte a texto. | `str(10)` -> `"10"` |
+| `len()` | Devuelve la longitud (de lista o string). | `len([1,2])` -> `2` |
+| `range()` | Genera una secuencia de números. | `range(5)` -> `0, 1, 2, 3, 4` |
+| `round()` | Redondea un número. | `round(3.14159, 2)` -> `3.14` |
+| `open()` | Abre un archivo. | `open("archivo.txt", "r")` |
+
+### Métodos de Strings
+| Método | Descripción | Ejemplo |
+| :--- | :--- | :--- |
+| `.strip()` | Elimina espacios al inicio y final. | `" hola ".strip()` -> `"hola"` |
+| `.split(sep)` | Divide el string en una lista. | `"a,b".split(",")` -> `['a', 'b']` |
+| `.join(lista)` | Une una lista en un string. | `",".join(['a', 'b'])` -> `"a,b"` |
+| `.replace(old, new)` | Reemplaza texto. | `"hola".replace("o", "a")` -> `"hala"` |
+| `.lower()` | Convierte a minúsculas. | `"HOLA".lower()` -> `"hola"` |
+| `.upper()` | Convierte a mayúsculas. | `"hola".upper()` -> `"HOLA"` |
+| `.capitalize()` | Pone la primera letra en mayúscula. | `"hola".capitalize()` -> `"Hola"` |
+| `.isnumeric()` | `True` si solo contiene números. | `"123".isnumeric()` -> `True` |
+| `.islower()` | `True` si está en minúsculas. | `"abc".islower()` -> `True` |
+
+### Métodos de Listas
+| Método | Descripción | Ejemplo |
+| :--- | :--- | :--- |
+| `.append(x)` | Añade `x` al final de la lista. | `lista.append(5)` |
+| `.insert(i, x)` | Inserta `x` en la posición `i`. | `lista.insert(0, 5)` |
+| `.remove(x)` | Elimina la primera aparición de `x`. | `lista.remove(5)` |
+
+### Métodos de JSON
+| Método | Descripción | Ejemplo |
+| :--- | :--- | :--- |
+| `json.load(f)` | Carga datos JSON desde un archivo. | `datos = json.load(archivo)` |
+
+---
 ## Notas y Buenas Prácticas
 
 Analizando los ejercicios, he notado algunos patrones y puntos importantes:
