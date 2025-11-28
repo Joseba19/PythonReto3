@@ -1,14 +1,19 @@
 # Apuntes de Python basados en los ejercicios de clase
 
+# Apuntes de Python basados en los ejercicios de clase
+
 ## Índice
 1. [Variables y Tipos de Datos](#variables-y-tipos-de-datos)
 2. [Entrada y Salida (Input/Output)](#entrada-y-salida-inputoutput)
 3. [Operadores](#operadores)
 4. [Control de Flujo](#control-de-flujo)
-5. [Manipulación de Cadenas (Strings)](#manipulación-de-cadenas-strings)
-6. [Estructuras de Datos](#estructuras-de-datos)
-7. [Manejo de Archivos](#manejo-de-archivos)
-8. [Notas y Buenas Prácticas](#notas-y-buenas-prácticas)
+5. [Ejemplos de FlowCharts](#ejemplos-de-lógica-flowcharts)
+6. [Manipulación de Cadenas (Strings)](#manipulación-de-cadenas-strings)
+7. [Estructuras de Datos](#estructuras-de-datos)
+8. [Manejo de Archivos](#manejo-de-archivos)
+9. [Manejo de JSON](#manejo-de-json)
+10. [Métodos](#métodos)
+11. [Notas y Buenas Prácticas](#notas-y-buenas-prácticas)
 
 ---
 
