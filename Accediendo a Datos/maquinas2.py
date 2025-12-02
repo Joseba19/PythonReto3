@@ -1,32 +1,17 @@
-temperaturas = [3955]
-temperaturasCopy = []
-maquina = []
-top5t = []
-contador = 1
-contador2 = 0
+temperaturas = []
 
 with open("Archivos/maquinas.txt", "r") as f:
     for line in f:
-        line = line.split("!")
-        maquina.append(line[0])
-        for n in line:
+        partes = line.split("!")
+        for n in partes:
             if "TEMP" in n:
-                n = n.split("=")
-                for i in n:
-                    if i.isnumeric():
-                        i = int(i)
-                        for t in temperaturas:
-                            if i > t:
-                                contador2 += 1
-                            else:
-                                temperaturas.insert(contador, i)
-                                contador = 0
-                                break
-
-                            if contador2 >= len(temperaturas):
-                                temperaturas.append(i)
-                                contador = 0
-                                break
-                            print(temperaturas)
+                # extraer valor numérico
+                valor = int(n.split("=")[1])
+                
+                # insertar ordenado
+                pos = 0
+                while pos < len(temperaturas) and temperaturas[pos] < valor:
+                    pos += 1
+                temperaturas.insert(pos, valor)
 
 print(temperaturas)
