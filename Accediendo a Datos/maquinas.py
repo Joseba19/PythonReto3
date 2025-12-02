@@ -16,7 +16,7 @@ with open("Archivos/maquinas.txt", "r") as f:
                         temp.append(i)
                         tempOrdenado.append(i)
 
-tempOrdenado.sort()
+tempOrdenado.sort() #El metodo sort lo he buscado en Google
 
 longitud = int(len(tempOrdenado))
 
