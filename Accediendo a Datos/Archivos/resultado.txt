@@ -8,20 +8,21 @@ Top 5 Maquinas por Temperatura:
 4. Temp = 5022
 5. Temp = 4961
 
-Maquinas por Nombre:
-R17: Temp: 1123
-Q5: Temp: 3311
-R03: Temp: 3822
-RX9: Temp: 3955
-R17: Temp: 4088
-B2: Temp: 4100
-XR4: Temp: 4410
-Z0: Temp: 4521
-T7: Temp: 4577
-QB3: Temp: 4600
-R03: Temp: 4799
-K2: Temp: 4961
-V9: Temp: 5022
-L1: Temp: 5130
-C7: Temp: 5244
-W2: Temp: 8761
+Temperatura de las maquinas por nombre:
+
+R17: 4521
+Q5: 8761
+R03: 3822
+RX9: 5130
+R17: 4410
+B2: 4799
+XR4: 3311
+Z0: 1123
+T7: 4961
+QB3: 4600
+R03: 5022
+K2: 4100
+V9: 4577
+L1: 4088
+C7: 5244
+W2: 3955
