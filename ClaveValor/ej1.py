@@ -1,5 +1,6 @@
 acciones = {"MSFT": 91.5, "REP": 7.91, "BBVA": 6.9}
 ValorAcciones = []
+contador =  0
 
 for valor in acciones.values():
     print(f"Valor de la accion: {valor}")
@@ -29,3 +30,12 @@ for valor in acciones.values():
 ValorAcciones.sort()
 
 print(ValorAcciones)
+
+acciones = {"MSFT": [91.5, 54.1, 76.4], "REP": [7.91, 5.6, 6.7], "BBVA": [6.9]}
+
+for clave, valores in acciones.items():
+    print(clave)
+    for valor in valores:
+        contador += 1
+        print(f"{contador}: {valor}")
+    contador =  0

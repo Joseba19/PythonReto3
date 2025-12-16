@@ -1,0 +1,28 @@
+== INFORME DE TEMPERATURAS HELIOS FACTORY ==
+
+Top 5 Maquinas por Temperatura:
+
+1. Temp = 8761
+2. Temp = 5244
+3. Temp = 5130
+4. Temp = 5022
+5. Temp = 4961
+
+Temperatura de las maquinas por nombre:
+
+R17: 4521
+Q5: 8761
+R03: 3822
+RX9: 5130
+R17: 4410
+B2: 4799
+XR4: 3311
+Z0: 1123
+T7: 4961
+QB3: 4600
+R03: 5022
+K2: 4100
+V9: 4577
+L1: 4088
+C7: 5244
+W2: 3955
